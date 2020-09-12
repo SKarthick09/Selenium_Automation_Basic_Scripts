@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Suite]" parallel="methods">
+  <parameter name="Name" value="SK"/>
+  <test name="Test Cases(failed)" parallel="methods">
+    <parameter name="Name" value="SK"/>
+    <classes>
+      <class name="testNG.ParallelTesting">
+        <methods>
+          <include name="openGoogle"/>
+          <include name="openBing"/>
+        </methods>
+      </class> <!-- testNG.ParallelTesting -->
+    </classes>
+  </test> <!-- Test Cases(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

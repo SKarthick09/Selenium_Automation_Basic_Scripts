@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test Suite"  parallel="methods">
+<test name="Test Cases">
+<parameter name="Name" value="SK"></parameter>
+
+<!-- <groups>
+<run>
+
+<include name="Apple"></include>
+<include name="Nokia"></include>
+
+</run>
+</groups> -->
+
+<classes>
+
+<class name="testNG.ParallelTesting"></class>
+
+
+<!-- <class name="testNG.DependenciesManagement"></class>
+<class name="testNG.DriveACar"></class>
+<class name="testNG.SampleTestcase"></class>
+<class name="testNG.SkipATestcase"></class> -->
+
+</classes>
+</test>
+</suite>
